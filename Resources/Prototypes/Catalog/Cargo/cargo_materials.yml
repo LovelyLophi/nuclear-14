@@ -28,25 +28,25 @@
   category: cargoproduct-category-name-materials
   group: market
 
-- type: cargoProduct
-  id: MaterialBrass
-  icon:
-    sprite: Objects/Materials/Sheets/metal.rsi
-    state: brass_3
-  product: CrateMaterialBrass
-  cost: 2500
-  category: cargoproduct-category-name-materials
-  group: market
+# - type: cargoProduct
+#   id: MaterialBrass
+#   icon:
+#     sprite: Objects/Materials/Sheets/metal.rsi
+#     state: brass_3
+#   product: CrateMaterialBrass
+#   cost: 2500
+#   category: cargoproduct-category-name-materials
+#   group: market
 
-- type: cargoProduct
-  id: MaterialPlasteel
-  icon:
-    sprite: Objects/Materials/Sheets/metal.rsi
-    state: plasteel_3
-  product: CrateMaterialPlasteel
-  cost: 3000
-  category: cargoproduct-category-name-materials
-  group: market
+# - type: cargoProduct
+#   id: MaterialPlasteel
+#   icon:
+#     sprite: Objects/Materials/Sheets/metal.rsi
+#     state: plasteel_3
+#   product: CrateMaterialPlasteel
+#   cost: 3000
+#   category: cargoproduct-category-name-materials
+#   group: market
 
 - type: cargoProduct
   id: MaterialTextiles
@@ -58,15 +58,15 @@
   category: cargoproduct-category-name-materials
   group: market
 
-- type: cargoProduct
-  id: MaterialPlasma
-  icon:
-    sprite: Objects/Materials/Sheets/other.rsi
-    state: plasma_3
-  product: CrateMaterialPlasma
-  cost: 2000
-  category: cargoproduct-category-name-materials
-  group: market
+# - type: cargoProduct
+#   id: MaterialPlasma
+#   icon:
+#     sprite: Objects/Materials/Sheets/other.rsi
+#     state: plasma_3
+#   product: CrateMaterialPlasma
+#   cost: 2000
+#   category: cargoproduct-category-name-materials
+#   group: market
 
 - type: cargoProduct
   id: CardboardMaterial
