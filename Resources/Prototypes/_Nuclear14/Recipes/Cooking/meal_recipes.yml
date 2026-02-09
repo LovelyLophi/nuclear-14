@@ -257,6 +257,19 @@
   solids:
     N14FoodFishBlinkyFillet: 1
 
+# Health foods
+
+type: microwaveMealRecipe
+  id: N14RecipeBloodSausage
+  name: blood sausage recipe
+  result: 
+  time: 10
+  reagents:
+    blood: 20
+    flour: 10
+  solids:
+    OrganAnimalStomach: 1
+
 #THE GREAT DOWNSTREAM MIGRATION BEGINS HERE GANG
 
 - type: microwaveMealRecipe
