@@ -437,6 +437,36 @@
         - ReagentId: Vitamin
           Quantity: 4
 
+- type: entity
+  name: blood sausage
+  parent: N14CookedFoodMealBase
+  id: N14CookedFoodMealBloodSausage
+  description: Tastes better than you imagine.
+  components:
+  - type: Food
+    trash: 
+    - FoodPlate
+  - type: FlavorProfile
+    flavors:
+      - Metallic
+      - Meaty
+  - type: Sprite
+    state: blood-sausage #i know this isn't a real sprite yet i'm workin on it
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Vitamin
+          Quantity: 4
+        - ReagentId: Blood
+          Quantity: 10
+        - ReagentId: Tricordrazine
+          Quantity: 8
+
+
 - type: entity #It felt weird to make an entire snacks folder just for this, so it's here in meals.yml, our catch-all. -Hazel
   name: popcorn
   parent: FoodSnackBase
