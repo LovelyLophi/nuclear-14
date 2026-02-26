@@ -194,8 +194,10 @@
           !type:PhysShapeAabb
             bounds: "0.3,0,-0.3,-0.1"
         density: 1000
+        mask:
+        - TableMask
         layer:
-        - WallLayer
+        - TableLayer
     
 - type: entity
   parent: N14DecorConcreteBarrier
